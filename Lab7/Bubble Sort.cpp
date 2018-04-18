@@ -3,8 +3,8 @@
 int main() {
     int ns[50],n,i,c;
     int number,max;
+    printf("Please input positive number end with -1 :");
     for(number=0;;number++){     /*loop for input string*/
-        printf("Please input positive number end with -1 :");
         scanf("%d",&ns[number]); /*input number string */
         if(ns[number]==-1){      /*when input='-1',jump out the loop*/
             break;
@@ -19,8 +19,9 @@ int main() {
            }
         }
     }
+    printf("The right order is:  ");
     for(c=0;c<number;c++){
-    printf("The right order is %d  ",ns[c]);
+    printf("%d ",ns[c]);
     }
 
 

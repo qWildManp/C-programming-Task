@@ -5,7 +5,7 @@ int main(){
     printf("Input:\n");
     scanf_s("%d",&number);
     if(number==0||number==1){
-        printf("It is not neither a prime number nor have format");
+        printf("It is not neither a prime number nor have factor");
     }
     for(i=2;i<number;i++){
         if(number%i==0) {

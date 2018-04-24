@@ -4,7 +4,7 @@ int main() {
     int number,i,n;
     n=0;
     printf("Please input a number:");
-    scanf_s("%d",&number);           /*Input a  number*/
+    scanf("%d",&number);           /*Input a  number*/
     if(number<=1){       /*If number is no more than 1*/
         printf("It's neither a prime number nor have format.");
     }

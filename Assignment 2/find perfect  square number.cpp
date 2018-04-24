@@ -3,7 +3,7 @@
 int main() {
   int number;
   int i=1,j,c=0;
-  scanf_s("%d",&number);/*get input number*/
+  scanf("%d",&number);/*get input number*/
   j=number;
   while(j > 0){    /*loop to count the digits*/
         j=j/10;

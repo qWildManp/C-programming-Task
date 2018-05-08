@@ -15,5 +15,5 @@ int Fac(int i,int n){  //function to calculate Fac
 	if(i>n){
 		return result;   //return the result
 	}
-	result=i*Fac(i+1,n);  //the recursion
+	 return result=i*Fac(i+1,n);  //the recursion
 }

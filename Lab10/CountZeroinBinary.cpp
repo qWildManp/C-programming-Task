@@ -16,9 +16,9 @@ int ZeroinBinary(int n){  //function to count the nmber of '0'
 		return count;   //return the result
 	}
 	else if(n%2==0){
-		count=1+ZeroinBinary(n/2);   //the recursion
+		return count=1+ZeroinBinary(n/2);   //the recursion
 	}
 	else{
-			ZeroinBinary(n/2);       //the recursion
+		return 	ZeroinBinary(n/2);       //the recursion
 	}
 }

@@ -14,5 +14,5 @@ int Power2(int n){     //function to calculate power of 2
 	if(n==0){
 		return result;
 	}
-	result=2*Power2(n-1);   //The recrusion 
+	else{return result=2*Power2(n-1); }  //The recrusion
 }

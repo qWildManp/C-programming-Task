@@ -15,7 +15,7 @@ int main(){
         printf("%d ",a[j]);
     }
 }
-int sortNum(int num[],int n){   //function to descend numbers
+ int sortNum(int num[],int n){   //intfunction to descend numbers
     int i,k,temp;
     for(i=0;i<n;i++){         //loop to descend numbers
         for(k=0;k<n-i-1;k++){
@@ -26,4 +26,5 @@ int sortNum(int num[],int n){   //function to descend numbers
             }
         }
     }
+    return 0;
 }

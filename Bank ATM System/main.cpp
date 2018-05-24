@@ -178,6 +178,9 @@ void Transfer(int acci, struct theAccount *p) {
             printf("You have transfer %.2lf to the receiver.\n", trans);
             printf("The charge of transfer is %.2lf.\n", trans * charge);
             printf("You have %.2lf $ in your account now.\n\n", p[isAccount].accountmoney);
+            printf("Press any key to continue...");
+            getchar();
+            getchar();
             return;
 //If the receiver is not in the Account.txt
         } else if (x == acci - 1) {
@@ -193,7 +196,7 @@ void Transfer(int acci, struct theAccount *p) {
 
 //To quit the whole ATM System
 void Quit() {
-    printf("\nYou have exit the system\n");
+    printf("All actions have saved!!\nYou have exit the system\n");
     exit(0);
 }
 
